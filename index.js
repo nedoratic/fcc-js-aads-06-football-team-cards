@@ -6,6 +6,7 @@ const headCoach = document.getElementById('head-coach');
 const playerCards = document.getElementById('player-cards');
 const playersDropdownList = document.getElementById('players');
 
+// My Favorite Football Team Object
 const myFavoriteFootballTeam = {
 	team: 'Argentina',
 	sport: 'Football',
@@ -172,3 +173,6 @@ const myFavoriteFootballTeam = {
 		},
 	],
 };
+
+// Prevent My Favorite Football Team Object of Being Changed
+Object.freeze(myFavoriteFootballTeam);
