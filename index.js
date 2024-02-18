@@ -176,3 +176,7 @@ const myFavoriteFootballTeam = {
 
 // Prevent My Favorite Football Team Object of Being Changed
 Object.freeze(myFavoriteFootballTeam);
+
+// My Favorite Football Team Variables
+const sport = myFavoriteFootballTeam.sport;
+const team = myFavoriteFootballTeam.team;
